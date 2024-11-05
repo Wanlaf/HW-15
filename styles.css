@@ -1,0 +1,56 @@
+/* Контейнер */
+.holder {
+    width: 600px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Верхній ряд */
+.top-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Два рівні стовпці для 1 і 5 */
+    flex: 1;
+}
+
+/* Нижній ряд */
+.bottom-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Три рівні стовпці для 3, 2 і 4 */
+    flex: 1;
+}
+
+/* Стилізація елементів */
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+.item1 {
+    background-color: #FF6347;
+}
+
+.item5 {
+    background-color: #FFA500;
+}
+
+.item3 {
+    background-color: #8A2BE2;
+}
+
+.item2 {
+    background-color: #4682B4;
+}
+
+.item4 {
+    background-color: #228B22;
+}
